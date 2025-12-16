@@ -2,7 +2,7 @@
 #include<stdbool.h>
 int main(){
 int num,sto[30],i=0;
-printf("enter sequence of digits : ");
+printf("enter sequence of digits : ");xx
 while(true)
 {
     scanf("%d",&num);

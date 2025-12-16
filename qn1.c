@@ -18,7 +18,7 @@ for(int i = 0 ; num1>0;i++){
     quotient = num1/divisor;
     num1 = num1%divisor;
     divisor = divisor/10;
-    printf("%d ", quotient);
+    printf("%d", quotient);
 }
 
 return 0;
