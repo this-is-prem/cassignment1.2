@@ -5,7 +5,6 @@ printf("enter input base : ");
 scanf("%d",&inputBase);
 printf("enter output base : ");
 scanf("%d",&outputBase);
-
 if (inputBase == 2){
     printf("enter your desired binary number : ");
     scanf("%d",&num);
@@ -29,7 +28,6 @@ if (inputBase == 10){
 
 
 }
-
 if (inputBase == 8){
     printf("enter your desired octal number : ");
     scanf("%d",&num);
@@ -44,8 +42,13 @@ if (inputBase == 8){
     }
 
 }
-/*
-if (inputBase == 16)
-*/
+if (inputBase == 16){
+    printf("enter your desired hexadecimal number : ");
+    scanf("%d",&num);
+    int temp = num;
+
+
+}
+
 return 0;
 }

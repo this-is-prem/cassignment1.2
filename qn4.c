@@ -8,19 +8,19 @@ scanf("%d",&option);
 switch(option)
 {
 case 1:
-    printf("A");
+    printf(" GRADE A");
     break;
 case 2:
-    printf("B");
+    printf(" GRADE B");
     break;
 case 3:
-    printf("C");
+    printf(" GRADE C");
     break;
 case 4:
-    printf("D");
+    printf(" GRADE D");
     break;
 case 5:
-    printf("F");
+    printf(" GRADE F");
     break;
 default:
     printf("\nenter a valid option !!! ");
